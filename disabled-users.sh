@@ -6,7 +6,7 @@
 
 if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$1" = "" ]; then
 	echo "disabled-users.sh"
-	echo "Generates a list of disabled OD users and either emails or prints to STDOUT\n"
+	echo "Generates a list of disabled OD users and either emails or prints to STDOUT"
 	echo "Usage: disabled-users.sh -e [email-to address]"
 	echo "Usage: disabled-users.sh -p"
 	echo "Options"
